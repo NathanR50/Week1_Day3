@@ -21,7 +21,7 @@ namespace Week1_Day3
 
              {
                  Console.WriteLine("That makes sense");
-             }*/
+             }
 
             {
 
@@ -29,26 +29,46 @@ namespace Week1_Day3
                 string userAnswer = (Console.ReadLine);
 
                 if (userAnswer == "Monday")
-                            {
+                {
 
-                                Console.WriteLine("Back to work");
+                    Console.WriteLine("Back to work");
 
-                            }
-           
-                 else if (userAnswer == "Friday")
+                }
 
-                            {
-                                Console.WriteLine("TGIF!");
-                            }
+                else if (userAnswer == "Friday")
+
+                {
+                    Console.WriteLine("TGIF!");
+                }
                 else
                 {
                     Console.WriteLine("Bloop!");
 
 
+
+
+
                 }
 
 
+            {
+
+                Console.WriteLine("How old are you");
+                int userAge = int.Parse(Console.ReadLine());
+
+                if (userAge >= 0 && <= 1)
+                {
+                    Console.WriteLine("Your a baby");
+                }
+
+                else if (userAge >= 65 && userAge < 100)
+                {
+                    Console.WriteLine("Enjoy your retirement");
+                }*/
+
             }
+
+
 
         }
     }
